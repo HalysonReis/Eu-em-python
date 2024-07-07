@@ -14,12 +14,11 @@ else:
 soma = 0
 mult = 1
 
-while menor <= maior:
-    if menor % 2 == 0:
-        soma += menor
-    elif menor % 2 == 1:
-        mult = mult * menor
-    menor += 1
+for c in range(menor, maior+1, 1):
+    if c % 2 == 0:
+        soma += c
+    elif c % 2 == 1:
+        mult = mult * c
 
 
 print('soma dos pares',soma)
