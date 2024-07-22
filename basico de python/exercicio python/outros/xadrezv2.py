@@ -45,8 +45,8 @@ class Xadrez:
 
     def print_tebuleiro(self):
         x = 1
-        print('lin | h | g | f | e | d | c | b | a')
-        print('col   |   |   |   |   |   |   |   |')
+        print('Col | h | g | f | e | d | c | b | a')
+        print('Lin   |   |   |   |   |   |   |   |')
         for lin in self.matriz:
             print(x, end=' -- ')
             for col in lin:
