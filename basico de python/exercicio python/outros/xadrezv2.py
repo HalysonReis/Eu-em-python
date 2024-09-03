@@ -59,4 +59,6 @@ xadrez = Xadrez()
 
 
 xadrez.gerar_tabuleiro()
+
 xadrez.print_tebuleiro()
+
